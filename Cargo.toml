@@ -5,3 +5,5 @@ edition = "2021"
 
 [dependencies]
 pool = "0.1.4"
+futures = { version = "0.3.30", features = ["thread-pool"] }
+threadpool = "1.8.1"
